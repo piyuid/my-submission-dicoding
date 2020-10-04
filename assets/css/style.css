@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+ }
+
+body {
+    font-family: 'PT Serif', serif;
+    background-color: #eeeeee;
+}
+
+/* POSISI HEADER */
+header {
+    display: inline;
+}
+
+nav {
+    background-color: #0d7377;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+    z-index: 300;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+ }
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+nav a:hover {
+    color: #e7e7de;
+    text-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+li .aktif {
+    font-family: 'Rammetto One', cursive;
+}
+
+/* POSISI SLIDES */
+.slideshow {
+    width: 100%;
+    max-height: 300px;
+    position: relative;
+    margin: auto;
+    background-color: #32e0c4;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.8);
+}
+
+.slideshow img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slider {
+    display: none;
+}
+
+.back, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.back:hover, .next:hover {
+    background-color: rgba(13,115,119,0.8);
+}
+
+.tulisan {
+    color: #212121;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: rgba(50,224,196,0.8);
+}
+
+.poin {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #32e0c4;
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.posisi, .poin:hover {
+    background-color: #0d7377;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* POSISI KONTEN */
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+article h2 {
+    border-bottom: 1px solid #212121;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 2em;
+    text-indent: 3em;
+}
+
+mark {
+    background-color: #32e0c4;
+}
+
+.card {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.8);
+    background-color: #e7e7de;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #212121;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* POSISI ASIDE */
+aside {
+    float: right;
+    width: 24%;
+    padding: 20px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.8);
+    background-color: #e7e7de;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+table {
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/* POSISI FOOTER */
+footer {
+    color: #e7e7de;
+    text-align: center;
+    padding: 20px;
+    background-color: #212121;
+}
+
+/* MEDIA SCREEN */
+@media screen and (max-width: 1000px) {
+    .aktif {
+        display: block;
+    }
+ }
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
+
+ @media screen and (max-width: 1000px) {
+    strong {
+        display: block;
+    }
+ }
+

@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif;
+}
+
+span {
+    color: red;
+}
+
+h1 {color: green;}
+
+h2, h3 {
+    color: #00a2c6
+}
+
+#sejarah, #wisata {
+    background-color: steelblue;
+}
+
+p {
+    font-size: small;
+    font-family: sans-serif;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6
+}
+
+.red {
+    color: red;
+}
+
+.skyblue-bg {
+    background-color: skyblue;
+}
+
+.fancy {
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+}
+
+img ~ p {
+    color: green;
+}
+
+div ~ p {
+    background-color: yellow;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: orange;
+}
+
+blockquote::before,
+blockquote::after {
+    content: '"';
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+}

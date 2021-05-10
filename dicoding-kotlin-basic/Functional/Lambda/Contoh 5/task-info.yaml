@@ -1,0 +1,28 @@
+type: theory
+custom_name: Contoh 5
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val message = buildString {
+            append("Hello ")
+            append("from ")
+            append("lambda ")
+        }
+
+        println(message)
+    }
+
+    fun buildString(action: StringBuilder.() -> Unit): String {
+        val stringBuilder = StringBuilder()
+        stringBuilder.action()
+        return stringBuilder.toString()
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Sun, 18 Oct 2020 17:01:07 UTC
+record: -1
+post_submission_on_open: true

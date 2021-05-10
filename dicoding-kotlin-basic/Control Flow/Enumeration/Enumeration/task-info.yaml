@@ -1,0 +1,21 @@
+type: theory
+custom_name: Enumeration
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val color : Color = Color.RED
+        print(color)
+    }
+
+    enum class Color{
+        RED, GREEN, BLUE
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Sun, 18 Oct 2020 02:35:14 UTC
+record: -1
+post_submission_on_open: true

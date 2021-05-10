@@ -1,0 +1,15 @@
+type: theory
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    fun main() {
+        val sequenceNumber = generateSequence(1) { it + 1 }
+        sequenceNumber.take(5).forEach { print("$it ") }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Sun, 18 Oct 2020 16:33:39 UTC
+record: -1
+post_submission_on_open: true

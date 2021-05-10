@@ -1,0 +1,21 @@
+type: theory
+custom_name: also
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val text = "Hello Kotlin"
+        val result = text.also {
+            println("value length -> ${it.length}")
+        }
+
+        println("text -> $result")
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Sun, 18 Oct 2020 17:04:12 UTC
+record: -1
+post_submission_on_open: true

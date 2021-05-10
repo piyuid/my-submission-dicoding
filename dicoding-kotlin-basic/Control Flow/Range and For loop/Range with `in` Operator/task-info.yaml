@@ -1,0 +1,19 @@
+type: theory
+custom_name: Range with `in` Operator
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val tenToOne = 10.downTo(1)
+        if (7 in tenToOne) {
+            println("Value 7 available")
+        }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Sun, 18 Oct 2020 03:38:00 UTC
+record: -1
+post_submission_on_open: true

@@ -1,0 +1,20 @@
+type: theory
+custom_name: Contoh 1
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        10.printInt()
+    }
+
+    fun Int.printInt() {
+        print("value $this")
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Sun, 18 Oct 2020 16:55:22 UTC
+record: -1
+post_submission_on_open: true

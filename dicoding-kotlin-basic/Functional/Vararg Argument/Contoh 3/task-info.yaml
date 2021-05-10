@@ -1,0 +1,21 @@
+type: theory
+custom_name: Contoh 3
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val number = intArrayOf(10, 20, 30, 40)
+        sets(10, 20, 20, *number , 10)
+    }
+
+    fun sets(vararg number: Int): Int {
+        return number.sum()
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Sun, 18 Oct 2020 16:50:56 UTC
+record: -1
+post_submission_on_open: true

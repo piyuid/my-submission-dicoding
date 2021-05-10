@@ -1,0 +1,20 @@
+type: theory
+custom_name: Infinite While
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        var value = 'A'
+        do {
+            value++
+            print(value)
+        } while (value <= 'Z')
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Sun, 18 Oct 2020 03:19:23 UTC
+record: -1
+post_submission_on_open: true

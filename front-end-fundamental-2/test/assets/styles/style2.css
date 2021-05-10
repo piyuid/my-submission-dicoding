@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.rounded {
+    border: 5px solid blue;
+    border-radius: 10px 10px 5px 5px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 5px;
+}

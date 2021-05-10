@@ -1,0 +1,21 @@
+type: theory
+custom_name: When with `is` operator
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val anyType : Any = 100L
+        when(anyType){
+            is Long -> println("the value has a Long type")
+            is String -> println("the value has a String type")
+            else -> println("undefined")
+        }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Sun, 18 Oct 2020 02:59:32 UTC
+record: -1
+post_submission_on_open: true

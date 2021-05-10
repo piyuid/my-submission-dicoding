@@ -1,0 +1,16 @@
+type: theory
+custom_name: Elvis Operator
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    fun main() {
+        val text: String? = null
+        val textLength = text?.length ?: 7
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Sat, 17 Oct 2020 10:34:42 UTC
+record: -1
+post_submission_on_open: true

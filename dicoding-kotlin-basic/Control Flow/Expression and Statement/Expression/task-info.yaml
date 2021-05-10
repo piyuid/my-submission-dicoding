@@ -1,0 +1,20 @@
+type: theory
+custom_name: Expression
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val openOffice = 7
+        val now = 8
+        val office = if (now > openOffice) "Office already open" else "office close"
+
+        println(office)
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Sun, 18 Oct 2020 03:10:48 UTC
+record: -1
+post_submission_on_open: true

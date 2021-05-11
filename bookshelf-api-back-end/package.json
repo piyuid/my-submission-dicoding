@@ -1,0 +1,25 @@
+{
+  "name": "bookshelf-api-back-end",
+  "version": "1.0.0",
+  "description": "submission-dicoding-leo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1\"",
+    "start": "node http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyuid/my-submission-dicoding.git"
+  },
+  "keywords": [
+    "bookshelf",
+    "api",
+    "postman"
+  ],
+  "author": "Leo Puji Christyanto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyuid/my-submission-dicoding/issues"
+  },
+  "homepage": "https://github.com/piyuid/my-submission-dicoding#readme"
+}

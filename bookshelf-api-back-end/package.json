@@ -4,8 +4,7 @@
   "description": "submission-dicoding-leo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1\"",
-    "start": "node http.js"
+    "start": "nodemon ./sources/server.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/piyuid/my-submission-dicoding/issues"
   },
-  "homepage": "https://github.com/piyuid/my-submission-dicoding#readme"
+  "homepage": "https://github.com/piyuid/my-submission-dicoding#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.3",
+    "moment": "^2.29.1",
+    "nanoid": "^3.1.23"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  }
 }

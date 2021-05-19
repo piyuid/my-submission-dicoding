@@ -54,11 +54,11 @@ class ValidationError extends Error {
   // TODO 2
   const validateNumberInput = (a, b, c) => {
     if (typeof a != "number") {
-      throw new ValidationError("argumen pertama harus number");
+      throw new ValidationError("Argumen pertama harus number");
     } else if (typeof b != "number") {
-      throw new ValidationError("argumen kedua harus number");
+      throw new ValidationError("Argumen kedua harus number");
     } else if (typeof c != "number") {
-      throw new ValidationError("argumen ketiga harus number");
+      throw new ValidationError("Argumen ketiga harus number");
     }
   }
   
